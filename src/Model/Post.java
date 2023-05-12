@@ -1,0 +1,17 @@
+package Model;
+
+public class Post {
+	public String postID;
+	public int[] words;
+	public int batch;
+	public int platform;
+	public int[] coins;
+	
+	public int topic;
+	public int inferedTopic;
+	public boolean isTopicFixed;
+	public int fixedTopic;
+	public double inferedLikelihood;
+	
+	public int inferedPlatform;// for the platform prediction task
+}
